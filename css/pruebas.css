@@ -1,0 +1,82 @@
+/*-----------------------------------
+    Small devices (landscape phones, 576px and up)
+------------------------------------*/
+
+@media screen and (max-width: 500px) {
+    .textbox {
+        font-size: 17px;
+    }
+    .textp {
+        font-size: 17px;
+        padding-left: 20px;
+        font-weight: 350;
+    }
+}
+
+
+/*-----------------------------------
+    Medium devices (tablets, 768px and up)
+------------------------------------*/
+
+@media only screen and (max-width: 770px) and (min-width: 500px) {
+    .textbox {
+        font-size: 30px;
+    }
+}
+
+
+/*-----------------------------------
+    Large devices (desktops, 992px and up)
+------------------------------------*/
+
+@media only screen and (max-width: 992px) and (min-width: 770px) {
+    .textbox {
+        font-size: 40px;
+    }
+    .textp {
+        font-size: 30px;
+        padding-left: 20px;
+        font-weight: 350;
+    }
+    .imagen-big {
+        position: absolute;
+        bottom: -900px;
+        right: -900px;
+    }
+    .imagen-small {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        padding: 25px 25px 0 0;
+        background-color: rgb(212, 18, 18);
+    }
+    .featured-img {
+        position: relative;
+        height: 530px;
+        margin-top: 60px;
+    }
+}
+
+
+/*-----------------------------------
+    Extra large devices (large desktops, 1200px and up)
+------------------------------------*/
+
+@media screen and (min-width: 1200px) {
+    .imagen-big {
+        position: absolute;
+        bottom: 0px;
+        right: 0px;
+    }
+    .imagen-small {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        padding: 25px 25px 0 0;
+        background-color: #fff;
+    }
+    .featured-img {
+        height: 100%;
+        margin-top: -66px;
+    }
+}

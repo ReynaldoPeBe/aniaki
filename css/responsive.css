@@ -1,0 +1,356 @@
+    /*Author: Jesus Reynaldo Perez Benavides*/
+
+    /*
+email:
+jperezbenavides gmail com
+
+*/
+
+    @font-face {
+        font-family: 'Cocon';
+        src: url("/fonts/Cocon_Regular.otf");
+    }
+
+    body {
+        font-family: 'Cuprum', sans-serif;
+    }
+
+    .textbody {
+        font-size: 20px;
+    }
+
+    .textbox {
+        font-size: 50px;
+    }
+
+    .imagen-big {
+        position: absolute;
+        bottom: 0px;
+        right: 0px;
+        width: 500px;
+    }
+
+    .imagen-small {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        padding: 15px 15px 0 0;
+        width: 200px;
+        background-color: rgba(0, 150, 167, 0.74);
+    }
+
+    #backblog {
+        background-image: url("../images/blancolor.jpg");
+        background-size: 1500px;
+        background-blend-mode: hard-light;
+    }
+
+    .backsuperior {
+        background-color: rgba(0, 150, 167, 0.37);
+        padding-top: 20px;
+        height: 200px;
+        background-blend-mode: difference;
+    }
+
+    .contacthead {
+        color: grey;
+        text-transform: lowercase;
+        font-size: 17px;
+    }
+
+    .imgover {
+        opacity: .45;
+    }
+
+    .imgbody {
+        -webkit-filter: grayscale(100%) sepia(100%) brightness(100%) contrast(140%) saturate(80%) hue-rotate(120deg) opacity(100%);
+        filter: grayscale(100%) sepia(100%) brightness(100%) contrast(140%) saturate(80%) hue-rotate(120deg) opacity(100%);
+    }
+
+    /*box sobrepuestas*/
+
+    .wrapper {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 10px;
+        grid-auto-rows: minmax(100px, auto);
+    }
+
+    .one {
+        grid-column: 1 / 3;
+        grid-row: 1;
+        margin-left: -100px;
+    }
+
+    .two {
+        grid-column: 2 / 4;
+        grid-row: 1 / 3;
+    }
+
+    .anchoimagen {
+        width: 900px;
+    }
+
+    .anchotexto {
+        width: 800px;
+    }
+
+    /* finbox sobrepuestas*/
+
+    /*galeria*/
+
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+    .figure-img {
+        display: block;
+        width: 90%;
+        height: 90%;
+        object-fit: cover;
+    }
+
+    /*FIN galeria*/
+
+    /*logo empresa*/
+
+    .imganiaky {
+        width: 80%;
+    }
+
+    /*FIN logo empresa*/
+
+    /* ::::::::::: RESPONSIVE :::::::::::::::::::::::*/
+
+    /* ::::::::::: RESPONSIVE :::::::::::::::::::::::*/
+
+    /* ::::::::::: RESPONSIVE :::::::::::::::::::::::*/
+
+    /* tablets g2*/
+
+    @media only screen and (min-width: 992px) and (max-width: 1200px) {
+        .textbody {
+            font-size: 17px;
+        }
+        .textbox {
+            font-size: 50px;
+        }
+        .imagen-big {
+            position: absolute;
+            bottom: 0px;
+            right: -30px;
+            width: 500px;
+        }
+        .imagen-small {
+            position: absolute;
+            bottom: 0;
+            left: -80;
+            padding: 15px 15px 0 0;
+            background-color: rgba(0, 150, 167, 0.74);
+            width: 200px;
+        }
+        .featured-img {
+            height: 100%;
+            margin-top: -66px;
+        }
+        .contacthead {
+            color: grey;
+            text-transform: lowercase;
+            font-size: 10px;
+        }
+        .anchoimagen {
+            width: 500px;
+        }
+        .anchotexto {
+            width: 600px;
+        }
+        .one {
+            grid-column: 1 / 3;
+            grid-row: 1;
+            margin-left: -10px;
+        }
+    }
+
+    /*Note*/
+
+    @media only screen and (min-width: 940px) and (max-width: 992px) {
+        .textbody {
+            font-size: 17px;
+        }
+        .textbox {
+            font-size: 40px;
+        }
+        .imagen-big {
+            position: absolute;
+            bottom: 0px;
+            right: -30px;
+            width: 350px;
+        }
+        .imagen-small {
+            position: absolute;
+            bottom: 0;
+            left: -30;
+            padding: 15px 15px 0 0;
+            background-color: rgba(0, 150, 167, 0.74);
+            width: 200px;
+        }
+        .featured-img {
+            height: 100%;
+            margin-top: -66px;
+        }
+        .contacthead {
+            color: grey;
+            text-transform: lowercase;
+            font-size: 10px;
+        }
+        .anchoimagen {
+            width: 400px;
+        }
+        .anchotexto {
+            width: 500px;
+        }
+        .one {
+            grid-column: 1 / 3;
+            grid-row: 1;
+        }
+        .two {
+            grid-column: 2 / 3;
+            grid-row: 1 / 3;
+        }
+    }
+
+    /* tablets g1*/
+
+    @media only screen and (min-width: 768px) and (max-width: 940px) {
+        .textbody {
+            font-size: 17px;
+        }
+        .textbox {
+            font-size: 40px;
+        }
+        .imagen-big {
+            position: absolute;
+            bottom: 0px;
+            right: -20px;
+            width: 350px;
+        }
+        .imagen-small {
+            position: absolute;
+            bottom: 0;
+            width: 200px;
+            left: 0;
+            padding: 15px 15px 0 0;
+            background-color: rgba(0, 150, 167, 0.74);
+        }
+        .contacthead {
+            color: grey;
+            text-transform: lowercase;
+            font-size: 10px;
+        }
+        .anchoimagen {
+            width: 400px;
+        }
+        .anchotexto {
+            width: 500px;
+        }
+        .one {
+            grid-column: 1 / 3;
+            grid-row: 1;
+        }
+        .two {
+            grid-column: 2 / 3;
+            grid-row: 1 / 3;
+        }
+    }
+
+    /*smartphones g4*/
+
+    @media only screen and (min-width: 501px) and (max-width: 767px) {
+        .textbody {
+            font-size: 15px;
+        }
+        .textbox {
+            font-size: 30px;
+        }
+        .imagen-big {
+            position: relative;
+            width: 500px;
+        }
+        .imagen-small {
+            position: relative;
+            width: 500px;
+            margin-top: 10px;
+            padding: 0px;
+        }
+        .contacthead {
+            color: grey;
+            text-transform: lowercase;
+            font-size: 0%;
+        }
+        .anchoimagen {
+            width: 400px;
+        }
+        .anchotexto {
+            width: 500px;
+        }
+        .one {
+            grid-column: 1 / 3;
+            grid-row: 1;
+            margin-left: 10px;
+        }
+        .two {
+            grid-column: 2 / 3;
+            grid-row: 1 / 3;
+        }
+    }
+
+    /*smartphones g2 g3*/
+
+    @media only screen and (min-width: 1px) and (max-width: 500px) {
+        .textbody {
+            font-size: 15px;
+        }
+        .textbox {
+            font-size: 17px;
+        }
+        .textp {
+            font-size: 17px;
+            padding-left: 20px;
+            font-weight: 350;
+        }
+        .imagen-big {
+            position: relative;
+            width: 300px;
+        }
+        .imagen-small {
+            position: relative;
+            width: 300px;
+            margin-top: 10px;
+            padding: 0px;
+        }
+        .contacthead {
+            color: grey;
+            text-transform: lowercase;
+            font-size: 0%;
+        }
+        .anchoimagen {
+            width: 310px;
+        }
+        .anchotexto {
+            width: 300px;
+        }
+        .one {
+            grid-column: 1 / 3;
+            grid-row: 1;
+            margin-left: 10px;
+        }
+        .two {
+            grid-column: 2 / 3;
+            grid-row: 1 / 3;
+        }
+    }
+
+    .tamimg {
+        width: 200px;
+    }

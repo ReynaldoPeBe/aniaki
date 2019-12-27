@@ -1,0 +1,82 @@
+.fondoani {
+    background: #0097a4;
+}
+
+.posiciondelantera {
+    z-index: 2;
+    background: rgba(0, 150, 167, 0.582);
+}
+
+.swiper-container {
+    width: 100%;
+    height: 100%;
+    background: #0097a4;
+}
+
+.swiper-slide {
+    font-size: 18px;
+    color: #fff;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 40px 60px;
+}
+
+.parallax-bg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 130%;
+    height: 100%;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center;
+}
+
+.swiper-slide .title {
+    font-size: 41px;
+    font-weight: 300;
+}
+
+.swiper-slide .subtitle {
+    font-size: 21px;
+}
+
+.swiper-slide .text {
+    font-size: 14px;
+    max-width: 400px;
+    line-height: 1.3;
+}
+
+/*Estilos */
+
+.esquinas {
+    /* background-color: #8dc63f !important; */
+    border-top-left-radius: 200px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 200px;
+    border-bottom-left-radius: 5px;
+}
+.esquinas2 {
+    border-top-left-radius: 100px;
+    border-top-right-radius: 55px;
+    border-bottom-right-radius: 100px;
+    border-bottom-left-radius: 5px;
+    background-color:  rgba(0, 150, 167, 0.85); 
+    
+}
+.anchoimagen{
+    width: 700px;
+}
+.anchotexto{
+    width: 700px;
+}
+
+
+.efecto-espejo-cajas {
+    -webkit-box-reflect: below -17px -webkit-gradient(linear, left top, left bottom, from(transparent), to(rgba(255, 255, 255, 0.5)));
+}
+
+h1, h2, h3, h4, h5 {
+    font-weight: 900;
+}
+
