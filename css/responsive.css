@@ -58,9 +58,18 @@ jperezbenavides gmail com
         font-size: 17px;
     }
 
-    .imgover {
+    .imgover {/*para imagen de cabecera*/
         opacity: .45;
     }
+
+    .fondo_letras_cabecera{
+        /*text-shadow: 0.1em 0.1em 0.05em #1c6461;*/
+        text-shadow: 0 0 0.2em #1c6461, 0 0 0.2em #1c6461,
+		0 0 0.2em #1c6461;
+    }
+
+
+
 
     .imgbody {
         -webkit-filter: grayscale(100%) sepia(100%) brightness(100%) contrast(140%) saturate(80%) hue-rotate(120deg) opacity(100%);
@@ -116,7 +125,7 @@ jperezbenavides gmail com
     /*logo empresa*/
 
     .imganiaky {
-        width: 80%;
+        width: 50%;
     }
 
     /*FIN logo empresa*/
