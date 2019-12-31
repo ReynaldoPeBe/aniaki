@@ -2,9 +2,10 @@
     background: #0097a4;
 }
 
+/*color del fondo del menú principal*/
 .posiciondelantera {
     z-index: 2;
-    background: rgba(0, 150, 167, 0.582);
+    background: #689f38d8;
 }
 
 .swiper-container {
