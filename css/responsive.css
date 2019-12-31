@@ -39,10 +39,11 @@ jperezbenavides gmail com
         background-color: rgba(0, 150, 167, 0.74);
     }
 
+    /*imagen para la seccion de blogs fondo*/
     #backblog {
-        background-image: url("../images/blancolor.jpg");
-        background-size: 1500px;
-        background-blend-mode: hard-light;
+        background-image: url("../images/plantaani.jpg");
+        background-size: 1300px;
+        /*background-blend-mode: hard-light;*/
     }
 
     .backsuperior {
