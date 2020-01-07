@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Añaki</title>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+
+    <!--Fonts google-->
+    <link href="https://fonts.googleapis.com/css?family=Audiowide&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cuprum&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap core CSS -->
+    <link href="mdb/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="mdb/css/mdb.min.css" rel="stylesheet">
+    <!-- Your custom styles (optional) -->
+    <link href="css/styleaniaky.css" rel="stylesheet">
+    <!--lightgallery-->
+    <link type="text/css" rel="stylesheet" href="./lightGallery/dist/css/lightgallery.css" />
+
+    <!--WSiper-->
+    <link rel="stylesheet" href="swiper/package/css/swiper.min.css">
+    <!--AOS-->
+    <link rel="stylesheet" href="aos/dist/aos.css">
+    <link rel="stylesheet" href="css/backfonund.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <link rel="stylesheet" href="css/app.css">
+
+</head>
+
+<body class="textbody">
+    <nav class="mb-1 mt-1 navbar navbar-expand-lg navbar-dark transparent posiciondelantera">
+        <a class="navbar-brand pl-5" href="#"><img src="images/logoblanco.svg" alt="aniaki" style="width: 20px;">
+            A&ntilde;aki
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-333"
+            aria-controls="navbarSupportedContent-333" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent-333">
+            <ul class="navbar-nav ml-auto pr-5">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Inicio
+                        <span class="sr-only">(current)</span>
+                    </a>
+                </li>
+                
+            </ul>
+        </div>
+    </nav>
+    <div class="container mt-5">
+        <h1 class="display-3 light-green-text">Blogs</h1>
+        
+
+        <!-- cascading cards -->
+        <div class="row">
+            <div class="col-lg-4">
+                <h5 class="mb-5"></h5>
+                <div class="card card-cascade card-cascade-wider mb-5">
+                    <img class="card-img-top" src="images/ex/hojasverde.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Blog 1</h5>
+                        <p class="card-text">Texto resumen del blog y el autor.</p>
+                        <p>Autor: John Costas</p>
+                        <a href="#" class="btn  red darken-4 ransparent text-white">Ver</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <h5 class="mb-5"></h5>
+                <div class="card card-cascade card-cascade-wider mb-5">
+                    <img class="card-img-top" src="images/ex/pq_semillabeige.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Blog 2</h5>
+                        <p class="card-text">Texto resumen del blog y el autor.</p>
+                        <p>Autor: Alicia XYC</p>
+                        <a href="#" class="btn  red darken-4 ransparent text-white">Ver</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <h5 class="mb-5"></h5>
+                <div class="card card-cascade card-cascade-wider mb-5">
+                    <img class="card-img-top" src="images/ex/pq_20180425_095503.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Blog 3</h5>
+                        <p class="card-text">Texto resumen del blog y el autor.</p>
+                        <p>Autor: Jazz ZZbn</p>
+                        <a href="#" class="btn  red darken-4 ransparent text-white">Ver</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/node-waves/0.7.5/waves.js"> </script>
+
+    <script>
+        Waves.attach(
+            '[class*=card-img]',
+            ['waves-light']
+        );
+        Waves.init();
+    </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- /Start your project here-->
+
+    <!-- SCRIPTS -->
+    <!-- FONT fontawesome-->
+    <script src="https://kit.fontawesome.com/ad7e850ec7.js" crossorigin="anonymous"></script>
+
+
+    <!-- JQuery -->
+
+
+    <script type="text/javascript" src="mdb/js/jquery-3.4.1.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="mdb/js/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="mdb/js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="mdb/js/mdb.min.js"></script>
+    <!--lightgallery-->
+    <script src="lightgallery/js/lightgallery.min.js"></script>
+    <script src="lightgallery/modules/lg-thumbnail.js"></script>
+    <script src="lightgallery/modules/lg-fullscreen.js"></script>
+
+    <script src="swiper/package/js/swiper.min.js"></script>
+
+    <script src="aos/dist/aos.js"></script>
+
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+            speed: 600,
+            parallax: true,
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+        });
+
+
+    </script>
+    <script>
+        AOS.init();
+
+        $(document).ready(function () {
+            $('#lightgallery').lightGallery();
+
+            $('a[href^="#"]').click(function () {
+                var destino = $(this.hash);
+                if (destino.length == 0) {
+                    destino = $('a[name="' + this.hash.substr(1) + '"]');
+                }
+                if (destino.length == 0) {
+                    destino = $('html');
+                }
+                $('html, body').animate({ scrollTop: destino.offset().top }, 800);
+                return false;
+            });
+        });
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/picturefill/2.3.1/picturefill.min.js"></script>
+    <script src="./lightGallery/dist/js/lightgallery-all.min.js"></script>
+    <script src="./lightGallery/lib/jquery.mousewheel.min.js"></script>
+</body>
+
+</html>
